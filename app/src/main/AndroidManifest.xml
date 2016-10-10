@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.munierto.m4104_projet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controler.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controler.MenuActivity" />
+        <activity android:name=".Controler.PlayActivity" />
+        <activity android:name=".Controler.PlayMathActivity" />
+        <activity android:name=".Controler.PlayMathLevel1Activity" />
+        <activity android:name=".Controler.PlayMathLevel2Activity" />
+        <activity android:name=".Controler.PlayGeneralCultutreActivity"></activity>
+    </application>
+
+</manifest>
